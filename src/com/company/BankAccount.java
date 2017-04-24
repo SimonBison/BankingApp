@@ -10,6 +10,13 @@ class BankAccount
     String customerName;
     String customerId;
 
+    // creating constructor to display the welcome message for the user
+    BankAccount(String cname, String cid)
+    {
+        customerName = cname;
+        customerId = cid;
+    }
+
     void deposit(int amount)
     {
         if(amount != 0)
