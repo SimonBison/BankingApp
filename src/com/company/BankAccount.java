@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 /**
  * Created by Administrator on 2017-04-24.
  */
@@ -105,6 +107,10 @@ class BankAccount
                     getPreviousTransaction();
                     System.out.println("----------------------------------------------------");
                     System.out.println("\n");
+                    break;
+
+                case 'E':
+                    System.out.println("****************************************************");
                     break;
 
                 default:
